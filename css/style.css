@@ -1,0 +1,1009 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+
+/*Barra de navegacion*/
+header {
+    height: 100px;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 60px;
+}
+
+header img {
+    width: 35px;
+}
+
+.menu {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu a {
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.mostrar {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mostrar {
+    order: 1;
+}
+
+#check {
+    display: none;
+}
+
+/*Seccion 1*/
+#banner {
+    padding-top: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido2 img {
+    width: 550px;
+}
+
+.contenido1 h3 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.contenido1 h2 {
+    font-weight: normal;
+}
+
+.contenido1 span {
+    font-weight: bold;
+}
+
+.contenido1 h2,
+span {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.contenido1 p {
+    font-size: 43px;
+    padding-bottom: 20px;
+}
+
+.contenido1 .texto p {
+    font-size: 25px;
+}
+
+/*Seccion 2*/
+#seccion2 {
+    height: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.img1 img {
+    width: 250px;
+}
+
+
+/*Seccion 3*/
+#seccion3 {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido3 p {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(80, 80, 80);
+    padding: 20px;
+}
+
+.contenido3 img {
+    width: 1350px;
+    padding-bottom: 50px;
+}
+
+/*Seccion 4*/
+#seccion4 {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    justify-content: center;
+}
+
+.texto4 p {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+
+.contenido4 {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro1 {
+    background-color: rgb(31, 31, 31);
+    height: 250px;
+    width: 380px;
+    margin: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+
+.cuadro2,
+.cuadro3 {
+    background-color: rgb(168, 168, 168);
+    height: 250px;
+    width: 380px;
+    margin: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+
+.cuadro1 h1 {
+    font-size: 40px;
+    color: rgb(240, 240, 240);
+    padding-bottom: 30px;
+}
+
+.cuadro1 p {
+    font-size: 18px;
+    color: rgb(240, 240, 240);
+    padding-bottom: 60px;
+}
+
+.cuadro1 h2 {
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+}
+
+.cuadro2 h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.cuadro2 p {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.cuadro2 h2 {
+    font-size: 20px;
+}
+
+.cuadro3 h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.cuadro3 p {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.cuadro3 h2 {
+    font-size: 20px;
+}
+
+.img3 {
+    display: flex;
+    justify-content: center;
+}
+
+.img3 img {
+    width: 180px;
+    padding-bottom: 100px;
+}
+
+/*Seccion 5*/
+#seccion5 {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    justify-content: center;
+}
+.texto5 p {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    padding-bottom: 50px;
+}
+.contenido5 {
+    display: flex;
+    justify-content: center;
+}
+.contenido5 br{
+    display: none;
+}
+.contenido5 span{
+    font-size: 20px;
+    display: none;
+}
+.contenido5 p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.portafolio {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.f img {
+    margin: 10px;
+    width: 95%;
+}
+
+.img4 {
+    display: flex;
+    justify-content: center;
+}
+
+.img4 img {
+    width: 180px;
+    padding-bottom: 150px;
+}
+/*Seccion 6*/
+#seccion6 {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    justify-content: center;
+}
+
+.texto6 p {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    padding-bottom: 80px;
+}
+.contenido6{
+    display: flex;
+}
+.img6 img{
+    width: 600px;
+    padding-right: 100px;
+}
+.ab img{
+    width: 80px;
+}
+.ce{
+    display: flex;
+    justify-content: right;
+}
+.ce img{
+    width: 80px;
+    justify-items: end;
+    padding-bottom: 200px;
+}
+.txt6 p{
+    font-size: 40px;
+}
+.txt6 h2{
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    padding-bottom: 150px;
+}
+.op6 img{
+    width: 170px;
+}
+/*Seccion 7*/
+#seccion7{
+    height: 500px;
+    background-color: rgb(54, 54, 54);
+}
+.tx1{
+    display: flex;
+    justify-content: center;
+}
+.tx2{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+}
+.tx1 h2{
+    font-size: 30px;
+    padding-top: 100px;
+    color: antiquewhite;
+}
+.tx2 h1{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: antiquewhite;
+}
+.center button{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+}
+.img-redes{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.img-redes img{
+    width: 600px;
+}
+/*Seccion 8*/
+#seccion8{
+    height: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+}
+.cont-8{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.numeros h1{
+    text-align: center;
+    font-size: 50px;
+}
+.numeros p{
+    text-align: center;
+    font-size: 20px;
+}
+/*Seccion 9*/
+#seccion9 {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    justify-content: center;
+}
+
+.texto9 p {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.img-blog{
+    display: flex;
+    justify-content: center;
+}
+.img-blog img{
+    width: 400px;
+    margin: 30px;
+}
+.op-blog{
+    display: flex;
+    justify-content: center;
+}
+.op-blog img{
+    padding-top: 20px;
+    width: 120px;
+}
+/*Seccion 10*/
+#seccion10{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.texto10{
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 80px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.datos img{
+    width: 500px;
+}
+.contenido10 p{
+    padding-top: 50px;
+    padding-bottom: 170px;
+    font-size: 40px;
+    color: rgb(54, 54, 54);
+}
+.contenido10 h3{
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+}
+/*Seccion Final*/
+#final{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+.fin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fin p{
+    font-size: 15px;
+    color: rgb(104, 104, 104);
+}
+.fin img{
+    width: 450px;
+}
+
+@media(max-width: 1440px){
+    header{
+        padding: 0 25px;
+    }
+    /*Seccion 1*/
+    #banner{
+        padding: 25px;
+    }
+    .contenido1 .texto p{
+        padding-right: 80px;
+    }
+    .contenido1 br{
+        display: none;
+    }
+    /*Seccion 2*/
+    #seccion2{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /*Seccion 3*/
+    .contenido3 img {
+        width: 1300px;
+    }
+    /*Seccion 4*/
+    #seccion4 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .cuadro1, .cuadro2, .cuadro3{
+        margin: 50px;
+    }
+    .img3 img {
+        width: 130px;
+    }
+    /*Seccion 5*/
+    #seccion5 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .img4 img {
+        width: 130px;
+    }
+    /*Seccion 6*/
+    #seccion6 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .txt6 br{
+        display: none;
+    }
+    .txt6 p{
+        font-size: 35px;
+    }
+    .op6 img{
+        width: 150px;
+    }
+    /*Seccion 8*/
+    #seccion8{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /*Seccion 9*/
+    #seccion9 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /*Seccion 10*/
+    #seccion10 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .box{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .contenido10{
+        padding-right: 70px;
+    }
+    .contenido10 p{
+        padding-bottom: 230px;
+    }
+    .contenido10 br{
+        display: none;
+    }
+    .contenido10 h3{
+        font-size: 17px;
+    }
+    /*Seccion final*/
+    #final{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media(max-width: 1152px){
+    header{
+        padding: 0 25px;
+    }
+    /*Seccion 1*/
+    #banner{
+        padding: 25px;
+    }
+    .contenido1 h3{
+        font-size: 30px;
+    }
+    .contenido1 h2{
+        padding-right: 100px;
+    }
+    .contenido1 p{
+        padding-bottom: 50px;
+    }
+    .contenido2 img {
+        width: 425px;
+    }
+    /*Seccion 2*/
+    #seccion2 {
+        height: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .img1 img {
+        width: 200px;
+    }
+    /*Seccion 3*/
+    #seccion3 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .contenido3 img {
+        width: 1102px;
+    }
+    /*Seccion 4*/
+    #seccion4 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .cuadro1, .cuadro2, .cuadro3{
+        margin: 15px;
+    }
+    /*Seccion 5*/
+    #seccion5 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .img4 img {
+        width: 100px;
+    }
+    /*Seccion 6*/
+    #seccion6 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .txt6 br{
+        display: none;
+    }
+    .txt6 p{
+        font-size: 35px;
+    }
+    .img6 img{
+        width: 450px;
+        padding-right: 50px;
+    }
+    .ce img{
+        padding-bottom: 70px;
+    }
+    .txt6 h2{
+        padding-bottom: 90px;
+    }
+    .op6 img{
+        width: 130px;
+    }
+    /*Seccion 8*/
+    #seccion8{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /*Seccion 9*/
+    #seccion9 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .img-blog img{
+        width: 360px;
+        margin: 10px;
+    }
+    /*Seccion 10*/
+    #seccion10 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .datos img{
+        width: 470px;
+    }
+    .contenido10 p{
+        padding-top: 80px;
+        padding-bottom: 150px;
+        font-size: 33px;
+    }
+    .contenido10 h3{
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    /*Seccion final*/
+    #final{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media(max-width: 768px){
+    header{
+        padding: 0 10px;
+    }
+    /*Seccion 1*/
+    #banner {
+        display: block;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .contenido1 p {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .contenido1 .texto p {
+        font-size: 20px;
+    }
+    .contenido2 img {
+        width: 748px;
+        height: 500px;
+    }
+    /*Seccion 2*/
+    #seccion2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Seccion 3*/
+    #seccion3 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contenido3 img {
+        width: 748px;
+        padding-bottom: 50px;
+    }
+    /*Seccion 4*/
+    #seccion4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contenido4 {
+        display: block;
+        justify-content: center;
+    }
+    .cuadro1, .cuadro2, .cuadro3{
+        height: 250px;
+        width: 698px;
+        margin: 10px;
+    }
+    .cuadro1 br, .cuadro2 br, .cuadro3 br{
+        display: none;
+    }
+    /*Seccion 5*/
+    #seccion5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .portafolio {
+        display: block;
+        justify-content: center;
+    }
+    .f img {
+        width: 708px;
+        height: 500px;
+    }
+    /*Seccion 6*/
+    #seccion6 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contenido6{
+        display: block;
+    }
+    .img6 img{
+        width: 748px;
+        height: 700px;
+    }
+    .op6{
+        display: flex;
+        justify-content: center;
+    }
+    /*Seccion 8*/
+    #seccion8{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /*Seccion 9*/
+    #seccion9 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .img-blog{
+        display: block;
+    }
+    .img-blog img{
+        width: 728px;
+        height: 700px;
+    }
+    /*Seccion 10*/
+    #seccion10{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .texto10{
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    .box{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contenido10 p{
+        padding-top: 0;
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+    .contenido10 h3{
+        padding-bottom: 10px;
+    }
+    .datos img{
+        padding-top: 40px;
+        width: 748px;
+        height: 600px;
+    }
+    /*Seccion final*/
+    #final{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .fin{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .fin p{
+        padding-top: 20px;
+    }
+}
+@media(max-width: 320px){
+    header{
+        padding: 0 10px;
+    }
+    .logo{
+        font-size: 35px;
+    }
+    header img{
+        display: none;
+    }
+    .menu a{
+        display: none;
+    }
+    /*Seccion 1*/
+    #banner {
+        padding-right: 10px;
+        padding-left: 10px;
+        display: block;
+    }
+    .contenido1 h3 {
+        font-size: 25px;
+    }
+    .contenido1 h2, span{
+        font-size: 30px;
+        padding-right: 0;
+    }
+    .contenido1 p {
+        font-size: 20px;
+    }
+    .contenido1 .texto p {
+        font-size: 19px;
+        padding-right: 0;
+    }
+    .contenido2 img {
+        width: 300px;
+        height: 350px;
+    }
+    /*Seccion 2*/
+    #seccion2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /*Seccion 3*/
+    #seccion3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: block;
+    }
+    .contenido3 p {
+        font-size: 30px;
+        text-align: left;
+        padding-left: 0;
+    }
+    .contenido3 img {
+        width: 300px;
+    }
+    /*Seccion 4*/
+    #seccion4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .texto4 p {
+        font-size: 40px;
+        text-align: center;
+    }
+    .contenido4 {
+        display: block;
+    }
+    .cuadro1, .cuadro2, .cuadro3{
+
+        width: 250px;
+    }
+    .cuadro3 h1 {
+        font-size: 37px;
+    }
+    .img3 img {
+        width: 100px;
+    }
+    /*Seccion 5*/
+    #seccion5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .texto5 p {
+        font-size: 40px;
+    }
+    .contenido5 {
+        display: block;
+    }
+    .contenido5 br{
+        display: flex;
+    }
+    .portafolio {
+        display: block;
+        padding: 0;
+    }
+    .f img {
+        margin: 0;
+        width: 300px;
+        height: 350px;
+    }
+    /*Seccion 6*/
+    #seccion6 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .texto6 p {
+        font-size: 40px;
+        text-align: left;
+    }
+    .contenido6{
+        display: block;
+    }
+    .img6 img{
+        width: 300px;
+        height: 350px;
+        padding-right: 0;
+    }
+    .txt6 p{
+        font-size: 19px;
+    }
+    .txt6 .p br{
+        display: block;
+    }
+    /*Seccion 7*/
+    .tx1 h2{
+        font-size: 30px;
+    }
+    .tx2 h1{
+        font-size: 40px;
+    }
+    .img-redes img{
+        width: 300px;
+    }
+    /*Seccion 8*/
+    #seccion8{
+        height: 500px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .cont-8{
+        display: block;
+        align-items: center;
+    }
+    .numeros p{
+        padding-bottom: 20px;
+    }
+    /*Seccion 9*/
+    #seccion9 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .texto9 p {
+        font-size: 40px;
+    }
+    .img-blog{
+        display: block;
+    }
+    .img-blog img{
+        width: 300px;
+        height: 450px;
+        margin: 0;
+    }
+    /*Seccion 10*/
+    #seccion10{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .texto10{
+        font-size: 40px;
+        text-align: left;
+    }
+    .box{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .datos img{
+        width: 300px;
+        height: 450px;
+    }
+    .contenido10 p{
+        font-size: 20px;
+        color: rgb(54, 54, 54);
+    }
+    .contenido10 h3{
+        font-size: 12px;
+    }
+    /*Seccion final*/
+    #final{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .fin{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .fin p{
+        padding-top: 20px;
+    }
+    .fin img{
+        width: 300px;
+    }
+}
